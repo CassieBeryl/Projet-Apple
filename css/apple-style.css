@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+html,body{
+	margin:0;
+	padding:0;
+}
+
+header, main{margin-top:0;width:100%;}
+
+p{
+  	font-family: 'Open Sans', sans-serif;
+  	color: rgb(128, 128, 128);
+  }
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.3em;
+	color: black;
+  }
+
+h2{
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 1.5em;
+  	color: black;
+  }
+ h4{
+	 margin-left:45px;
+ }
+
+/*PARTIE MENU DE NAV*/
+ul.nav{
+	text-align: center;
+	background: #3a3a3a;
+	list-style-type: none;
+	margin-top: 0;
+	min-height: 40px;
+	padding-top: 0px;
+}
+
+.nav li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 2%;
+	text-align: center; 
+	margin-top: 0;		  
+}
+
+.nav a:link{
+    font-size:1em;
+    color: #B8B8B8;
+    text-decoration: none;
+}
+    
+.nav a:visited{
+    color: #B8B8B8;
+}
+
+.nav a:hover{ 
+    color:#fff;
+}
+
+.nav{margin-bottom:0;position:relative;}
+/*FIN DE MENU DE NAV*/
+ 
+#conteneur{
+	width: 100%;
+	margin:0 auto 0 auto;
+}
+
+.gras{font-weight: bold;color:#000000;}
+
+.cache:hover{opacity:0;}
+
+
+a.achat:link{
+	text-decoration: none;
+}
+
+a.achat:hover{
+	text-decoration:underline;
+}
+
+#iphoneSE{
+	width: 100%;
+	background: #131313;
+	min-height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	margin-top:0;
+}
+
+#iphone11{
+	width:100%;
+	min-height:900px;
+	background-image:url("../images/iphone11.jpg");
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	text-align:center;
+	background-color: #FAFAFA;
+}
+
+ /*PARTI PRODUIT*/
+#ipadpro{
+	width: 100%; 
+	padding-top: 50px; 
+	min-height: 800px;
+	text-align: center; 
+	background-image: url("../images/ipadpro.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-color: #FAFAFA;
+}
+
+
+   /* ===== DEBUT DE PRODUITS ===== */
+
+
+
+.flexligne {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content:center;
+}
+
+.deuxcolonnes {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.deuxcolonnes >div{
+	background-color:red;
+}
+
+div#iMac{  
+	min-height: 490px;    
+	text-align: center;    
+	background-image: url("../images/iMac.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	object-fit: cover;
+	background-color: #F2F2F2; 
+	margin:0;
+	width: 50%; 	
+}
+  
+div#Etudes{ 
+	min-height: 490px;    
+	text-align: center;
+	background-image: url("../images/hello.png"); 
+	background-color: #F1F1F3;     
+	background-position: center; 
+	background-repeat: no-repeat;
+	object-fit: cover;
+	margin:0;
+	width:50%;	
+}
+  
+div#Arcade{ 
+	min-height: 490px;     
+	text-align: center; 
+	background-image: url("../images/Arcade.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	object-fit: cover; 
+	margin:0;
+	width: 50%; 
+}
+  
+div#Airpods{ 
+	min-height: 490px;   
+	text-align: center; 
+	background-color: #FBFBFD; 
+	background-image: url("../images/AirPods-mini.png"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	object-fit: contain; 
+	margin:0;
+	width:50%;
+}
+
+  
+div#AppleTV{ 
+	   
+	min-height: 490px; 
+	text-align: center;
+	color: white;
+	background-position: center;
+	background-image: url("../images/Apple-TV-80-mini.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	object-fit: contain;
+	margin:0;
+	width: 50%; 
+}
+  
+  
+div#Store{ 
+	width: 50%;     
+	min-height: 490px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-image:  url("../images/Apple-gris-cards-mini.png");
+	background-position: center;
+	object-fit: contain;
+	margin:0;
+	background-color:#FAFAFA;      
+}
+  
+	  /* ===== FIN DE PRODUITS ===== */
+
+.margegauche { 
+	margin-left: 40px; 
+}
+
+.troiscolonnes { 
+	display: grid;
+	grid-template-columns: auto auto auto ;
+}
+
+.quatrecolonnes { 
+	display: grid;
+	grid-template-columns: auto auto auto auto ;
+}
+
+.cinq_colonnes{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;	
+}
+
+.bloc ul li{
+	list-style-type: none;
+}
+
+.bloc a{
+    text-decoration: none;
+	color:grey;
+}
+
+.bloc a:hover{
+    text-decoration: underline;
+    color:grey;
+}
+
+.bloc-footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+	text-align:left;
+	width:100%;
+}
+.basPage{
+	width:60%;
+	margin:10px auto 20px auto;
+	background-color:#f5f5f7;
+	padding:10px;
+}
+footer.box{
+	background-color:#f5f5f7;	
+}
+.txtblanc{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+}
+
+
+
+			  /* ===== DEBUT DE PRODUITS ===== */
+
+#produits{   
+	display: grid;
+	grid-column: auto ;
+  }
+  
+  
+#iMac{  
+	min-height: 490px;    
+	text-align: center;    
+	background-image: url("../img/aple.png"); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	object-fit: cover;
+	background-color: #F2F2F2; 
+	margin:0;
+	width: 50%; 
+	float:left;
+}
+
+#Etudes{ 
+	min-height: 490px;    
+	text-align: center;
+	background-image: url("../img/hello.png"); 
+	background-color: #F1F1F3;     
+	background-position: center; 
+	background-repeat: no-repeat;
+	object-fit: cover;
+	margin:0;
+	width:50%;
+	float:right;
+}
+
+#Arcade{ 
+	min-height: 490px;     
+	text-align: center; 
+	background-image: url("../img/Arcade.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	object-fit: cover; 
+	float:left;
+	margin:0;
+	width: 50%; 
+}
+
+#Airpods{ 
+	min-height: 490px;   
+	text-align: center; 
+	background-color: #FBFBFD; 
+	background-image: url("../img/AirPods.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	object-fit: contain; 
+	float:right;
+	margin:0;
+	width:50%;
+}
+
+
+#AppleTV{ 
+	width: 50%;    
+	min-height: 490px; 
+	text-align: center;
+	color: white;
+	background-position: center;
+	background-image: url("../images/Apple-TV-80-mini.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	object-fit: contain;
+	float:left;
+	margin:0;
+}
+
+
+#Store{ 
+	width:50%;     
+	min-height: 490px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-image:  url("../img/affiche.png");
+	background-position: center;
+	object-fit: contain;
+	float:right;
+	margin:0;
+	background-color:#FAFAFA; 
+}
+  
+	  /* ===== FIN DE PRODUITS ===== */
+.legal{
+	width: 100%;
+	min-height: 100px;
+	font-family: 'Roboto', sans-serif;
+    font-size:10px;
+	text-align:left;
+}
+
+			/*PARTIE FOOTER*/
+
+ .legal a:link{
+	 text-decoration: none;
+ }
+ 
+ .legal a:hover{
+	 text-decoration: underline;
+ }
